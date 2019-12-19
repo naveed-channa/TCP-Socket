@@ -15,10 +15,10 @@ class AuthController {
           SocketClient.login(user[0].id , socket);
           await response.Success(user[0] , false , user[0].id , data.action);
       } else {
-        response.Error([], false, 'token_not_found' , socket);
+        response.Error([], false, 'login' , socket);
       }
     }else{
-      response.Error([], false, 'token_not_found' , socket);
+      response.Error([], false, 'login' , socket);
     }
   }
 
