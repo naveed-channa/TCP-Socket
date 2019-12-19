@@ -6,5 +6,5 @@ login :   {"authentication_token":"AUTH_TOKEN","action":"login"}\r\n
 
 RESPONSE TO CLINET
 
-Resp  : {"status":false,"code":400,"data":[],"message":"Authentication token not found.","action":"token_not_found","msg":"Client not found"}
+Resp  : {"status":false,"code":400,"data":[],"message":"You have not successfully loged in.","action":"login","msg":"Client not found"}
 
